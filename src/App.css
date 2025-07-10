@@ -1,0 +1,25 @@
+#root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #001529; /* Ant Design dark blue */
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.sider {
+  background-color: #f0f2f5; /* Light gray for sidebar */
+}
+
+.content {
+  background-color: #ffffff; /* White for content area */
+}
+
+/* Ensure children elements take up full width in Space */
+.ant-space-item {
+  width: 100%;
+}
